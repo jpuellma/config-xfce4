@@ -12,15 +12,17 @@
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="30"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="1"/>
+        <value type="int" value="13"/>
         <value type="int" value="17"/>
+        <value type="int" value="5"/>
         <value type="int" value="3"/>
         <value type="int" value="15"/>
-        <value type="int" value="5"/>
         <value type="int" value="26"/>
         <value type="int" value="23"/>
         <value type="int" value="25"/>
+        <value type="int" value="8"/>
         <value type="int" value="4"/>
+        <value type="int" value="7"/>
         <value type="int" value="27"/>
         <value type="int" value="21"/>
         <value type="int" value="6"/>
@@ -57,32 +59,20 @@
       <property name="mode" type="uint" value="2"/>
       <property name="nrows" type="uint" value="1"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="autohide" type="bool" value="true"/>
       <property name="disable-struts" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
+        <value type="int" value="9"/>
         <value type="int" value="30"/>
-        <value type="int" value="31"/>
-        <value type="int" value="32"/>
-        <value type="int" value="33"/>
-        <value type="int" value="34"/>
-        <value type="int" value="35"/>
-        <value type="int" value="36"/>
-        <value type="int" value="37"/>
-        <value type="int" value="38"/>
-        <value type="int" value="39"/>
-        <value type="int" value="40"/>
         <value type="int" value="41"/>
+        <value type="int" value="10"/>
       </property>
-      <property name="size" type="uint" value="48"/>
-      <property name="length" type="uint" value="10"/>
+      <property name="size" type="uint" value="58"/>
+      <property name="length" type="uint" value="30"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
+      <property name="background-alpha" type="uint" value="54"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="show-button-title" type="bool" value="false"/>
-      <property name="show-tooltips" type="bool" value="true"/>
-      <property name="button-icon" type="string" value="/home/jpuellmann/Pictures/fry-suspicious-small.jpg"/>
-    </property>
     <property name="plugin-2" type="string" value="actions"/>
     <property name="plugin-3" type="string" value="tasklist">
       <property name="show-labels" type="bool" value="false"/>
@@ -103,6 +93,7 @@
       <property name="show-frame" type="bool" value="true"/>
       <property name="digital-format" type="string" value="%A, %b %d, %Y %T"/>
       <property name="mode" type="uint" value="2"/>
+      <property name="show-seconds" type="bool" value="false"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
@@ -110,6 +101,7 @@
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="google-chrome-stable"/>
         <value type="string" value="guake"/>
+        <value type="string" value="yumex"/>
         <value type="string" value="clipit"/>
         <value type="string" value="shutter"/>
         <value type="string" value="seapplet"/>
@@ -139,21 +131,22 @@
         <value type="string" value="14333402511.desktop"/>
       </property>
     </property>
-    <property name="plugin-31" type="string" value="launcher"/>
-    <property name="plugin-32" type="string" value="launcher"/>
-    <property name="plugin-33" type="string" value="launcher"/>
-    <property name="plugin-34" type="string" value="launcher"/>
-    <property name="plugin-35" type="string" value="launcher"/>
-    <property name="plugin-36" type="string" value="launcher"/>
-    <property name="plugin-37" type="string" value="launcher"/>
-    <property name="plugin-38" type="string" value="launcher"/>
-    <property name="plugin-39" type="string" value="launcher"/>
-    <property name="plugin-40" type="string" value="launcher"/>
     <property name="plugin-41" type="string" value="pager">
       <property name="rows" type="uint" value="4"/>
       <property name="miniature-view" type="bool" value="false"/>
       <property name="workspace-scrolling" type="bool" value="false"/>
     </property>
     <property name="plugin-4" type="string" value="wavelan"/>
+    <property name="plugin-7" type="string" value="netload"/>
+    <property name="plugin-8" type="string" value="netload"/>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-10" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="whiskermenu"/>
   </property>
 </channel>
