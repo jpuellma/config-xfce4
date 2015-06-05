@@ -168,7 +168,6 @@
       <property name="&lt;Control&gt;F11" type="string" value="workspace_11_key"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;minus" type="string" value="maximize_horiz_key"/>
-      <property name="&lt;Super&gt;backslash" type="string" value="maximize_vert_key"/>
       <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
       <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
       <property name="&lt;Super&gt;s" type="string" value="lower_window_key"/>
@@ -178,6 +177,7 @@
       <property name="&lt;Super&gt;2" type="string" value="workspace_2_key"/>
       <property name="&lt;Super&gt;3" type="string" value="workspace_3_key"/>
       <property name="&lt;Super&gt;4" type="string" value="workspace_4_key"/>
+      <property name="&lt;Primary&gt;backslash" type="string" value="maximize_vert_key"/>
     </property>
   </property>
   <property name="providers" type="array">

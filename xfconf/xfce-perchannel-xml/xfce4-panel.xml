@@ -85,12 +85,15 @@
     </property>
     <property name="plugin-2" type="string" value="actions"/>
     <property name="plugin-3" type="string" value="tasklist">
-      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="false"/>
       <property name="flat-buttons" type="bool" value="false"/>
       <property name="grouping" type="uint" value="0"/>
       <property name="show-wireframes" type="bool" value="true"/>
-      <property name="show-only-minimized" type="bool" value="true"/>
-      <property name="include-all-workspaces" type="bool" value="true"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="0"/>
+      <property name="show-handle" type="bool" value="false"/>
     </property>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -103,6 +106,7 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
+        <value type="string" value="google-chrome"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="google-chrome-stable"/>
         <value type="string" value="guake"/>
