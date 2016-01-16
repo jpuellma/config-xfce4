@@ -10,11 +10,12 @@
       <property name="&lt;Alt&gt;F3" type="empty">
         <property name="startup-notify" type="empty"/>
       </property>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="empty"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Escape" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="empty"/>
       <property name="XF86Display" type="empty"/>
       <property name="&lt;Super&gt;p" type="empty"/>
-      <property name="&lt;Control&gt;Escape" type="empty"/>
+      <property name="&lt;Primary&gt;Escape" type="empty"/>
       <property name="XF86LogOff" type="empty"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;L" type="empty"/>
       <property name="Print" type="empty"/>
@@ -25,44 +26,44 @@
       <property name="XF86Memo" type="empty"/>
       <property name="XF86Terminal" type="empty"/>
       <property name="XF86Explorer" type="empty"/>
-      <property name="XF86AudioRaiseVolume" type="empty"/>
-      <property name="XF86AudioLowerVolume" type="empty"/>
-      <property name="XF86AudioMute" type="empty"/>
       <property name="XF86AudioMedia" type="empty"/>
       <property name="XF86AudioPlay" type="empty"/>
       <property name="XF86AudioPrev" type="empty"/>
       <property name="XF86AudioNext" type="empty"/>
       <property name="XF86Calculator" type="empty"/>
+      <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="empty"/>
+      <property name="&lt;Control&gt;Escape" type="empty"/>
+      <property name="XF86AudioRaiseVolume" type="empty"/>
+      <property name="XF86AudioLowerVolume" type="empty"/>
+      <property name="XF86AudioMute" type="empty"/>
     </property>
     <property name="custom" type="empty">
-      <property name="XF86Explorer" type="string" value="Thunar"/>
       <property name="&lt;Control&gt;Escape" type="string" value="xfdesktop --menu"/>
-      <property name="XF86LogOff" type="string" value="xfce4-session-logout"/>
-      <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter -w"/>
       <property name="XF86AudioRaiseVolume" type="string" value="amixer set Master 10%+ -q"/>
       <property name="XF86Terminal" type="string" value="Terminal"/>
-      <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
-      <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder"/>
-      <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed"/>
       <property name="XF86AudioLowerVolume" type="string" value="amixer set Master 10%- -q"/>
-      <property name="XF86Memo" type="string" value="xfce4-notes"/>
-      <property name="XF86AudioPrev" type="string" value="pragha --prev"/>
-      <property name="XF86AudioMedia" type="string" value="pragha"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
-      <property name="Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="XF86AudioMute" type="string" value="amixer set Master toggle -q"/>
       <property name="XF86Calculator" type="string" value="galculator"/>
-      <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
-      <property name="XF86AudioPlay" type="string" value="pragha --pause"/>
       <property name="XF86Calendar" type="string" value="orage"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;L" type="string" value="xfce4-session-logout"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
-      <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
-      <property name="XF86AudioNext" type="string" value="pragha --next"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;t" type="string" value="terminator"/>
       <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;&lt;Super&gt;z" type="string" value="xfce4-session-logout  --suspend"/>
+      <property name="XF86AudioPlay" type="string" value="cmus-remote -u"/>
+      <property name="XF86AudioNext" type="string" value="cmus-remote -n"/>
+      <property name="XF86AudioPrev" type="string" value="cmus-remote -r"/>
+      <property name="XF86AudioMedia" type="string" value="/usr/bin/terminator -e /usr/local/bin/cmus"/>
+      <property name="&lt;Super&gt;g" type="string" value="/usr/bin/git gui"/>
+      <property name="F3" type="string" value="/usr/bin/skippy-xd --toggle-window-picker"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;F3" type="string" value="/home/jpuellmann/bin/restart-skippy-xd.sh --config /home/jpuellmann/.config/skippy-xd.rc"/>
+      <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder"/>
+      <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu -p"/>
+      <property name="&lt;Super&gt;w" type="string" value="xfce4-popup-windowmenu"/>
+      <property name="&lt;Super&gt;q" type="string" value="/home/jpuellmann/bin/nocapslock"/>
+      <property name="&lt;Super&gt;space" type="string" value="xfce4-appfinder"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -76,8 +77,8 @@
       <property name="&lt;Alt&gt;Tab" type="empty"/>
       <property name="&lt;Alt&gt;&lt;Shift&gt;Tab" type="empty"/>
       <property name="&lt;Alt&gt;Delete" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Down" type="empty"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Left" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Down" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Left" type="empty"/>
       <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Down" type="empty"/>
       <property name="&lt;Alt&gt;F4" type="empty"/>
       <property name="&lt;Alt&gt;F6" type="empty"/>
@@ -87,6 +88,40 @@
       <property name="&lt;Alt&gt;F10" type="empty"/>
       <property name="&lt;Alt&gt;F11" type="empty"/>
       <property name="&lt;Alt&gt;F12" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;End" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Home" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_1" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_2" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_3" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_4" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_5" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_6" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_7" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_8" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;KP_9" type="empty"/>
+      <property name="&lt;Alt&gt;space" type="empty"/>
+      <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Up" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Right" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;d" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Up" type="empty"/>
+      <property name="&lt;Super&gt;Tab" type="empty"/>
+      <property name="&lt;Primary&gt;F1" type="empty"/>
+      <property name="&lt;Primary&gt;F2" type="empty"/>
+      <property name="&lt;Primary&gt;F3" type="empty"/>
+      <property name="&lt;Primary&gt;F4" type="empty"/>
+      <property name="&lt;Primary&gt;F5" type="empty"/>
+      <property name="&lt;Primary&gt;F6" type="empty"/>
+      <property name="&lt;Primary&gt;F7" type="empty"/>
+      <property name="&lt;Primary&gt;F8" type="empty"/>
+      <property name="&lt;Primary&gt;F9" type="empty"/>
+      <property name="&lt;Primary&gt;F10" type="empty"/>
+      <property name="&lt;Primary&gt;F11" type="empty"/>
+      <property name="&lt;Primary&gt;F12" type="empty"/>
+      <property name="&lt;Control&gt;&lt;Alt&gt;Down" type="empty"/>
+      <property name="&lt;Control&gt;&lt;Alt&gt;Left" type="empty"/>
       <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="empty"/>
       <property name="&lt;Alt&gt;&lt;Control&gt;End" type="empty"/>
       <property name="&lt;Alt&gt;&lt;Control&gt;Home" type="empty"/>
@@ -101,12 +136,9 @@
       <property name="&lt;Alt&gt;&lt;Control&gt;KP_7" type="empty"/>
       <property name="&lt;Alt&gt;&lt;Control&gt;KP_8" type="empty"/>
       <property name="&lt;Alt&gt;&lt;Control&gt;KP_9" type="empty"/>
-      <property name="&lt;Alt&gt;space" type="empty"/>
-      <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Up" type="empty"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Right" type="empty"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;d" type="empty"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Up" type="empty"/>
-      <property name="&lt;Super&gt;Tab" type="empty"/>
       <property name="&lt;Control&gt;F1" type="empty"/>
       <property name="&lt;Control&gt;F2" type="empty"/>
       <property name="&lt;Control&gt;F3" type="empty"/>
@@ -121,7 +153,6 @@
       <property name="&lt;Control&gt;F12" type="empty"/>
     </property>
     <property name="custom" type="empty">
-      <property name="&lt;Control&gt;F5" type="string" value="workspace_5_key"/>
       <property name="&lt;Control&gt;F6" type="string" value="workspace_6_key"/>
       <property name="&lt;Control&gt;F7" type="string" value="workspace_7_key"/>
       <property name="&lt;Control&gt;F8" type="string" value="workspace_8_key"/>
@@ -129,7 +160,6 @@
       <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Right" type="string" value="right_workspace_key"/>
       <property name="Left" type="string" value="left_key"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;d" type="string" value="show_desktop_key"/>
       <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_key"/>
       <property name="&lt;Control&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_key"/>
       <property name="Up" type="string" value="up_key"/>
@@ -167,7 +197,6 @@
       <property name="&lt;Alt&gt;&lt;Control&gt;Home" type="string" value="move_window_prev_workspace_key"/>
       <property name="&lt;Control&gt;F11" type="string" value="workspace_11_key"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Super&gt;minus" type="string" value="maximize_horiz_key"/>
       <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
       <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
       <property name="&lt;Super&gt;s" type="string" value="lower_window_key"/>
@@ -177,7 +206,15 @@
       <property name="&lt;Super&gt;2" type="string" value="workspace_2_key"/>
       <property name="&lt;Super&gt;3" type="string" value="workspace_3_key"/>
       <property name="&lt;Super&gt;4" type="string" value="workspace_4_key"/>
-      <property name="&lt;Primary&gt;backslash" type="string" value="maximize_vert_key"/>
+      <property name="&lt;Super&gt;5" type="string" value="workspace_5_key"/>
+      <property name="&lt;Alt&gt;backslash" type="string" value="maximize_vert_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;braceright" type="string" value="tile_up_right_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;braceleft" type="string" value="tile_up_left_key"/>
+      <property name="&lt;Super&gt;bracketleft" type="string" value="tile_down_left_key"/>
+      <property name="&lt;Super&gt;bracketright" type="string" value="tile_down_right_key"/>
+      <property name="&lt;Super&gt;d" type="string" value="show_desktop_key"/>
+      <property name="&lt;Super&gt;minus" type="string" value="tile_down_key"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;underscore" type="string" value="tile_up_key"/>
     </property>
   </property>
   <property name="providers" type="array">

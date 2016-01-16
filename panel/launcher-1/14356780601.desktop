@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Apache Directory Studio
+GenericName=Apache Directory Studio
+Comment=Apache Directory Studio
+Categories=Application
+Encoding=UTF-8
+Exec=/home/jpuellmann/bin/ads
+Icon=/home/jpuellmann/Pictures/Icons/studio-icon_128x128.png
+Terminal=false
+Type=Application
+StartupWMClass=ads
+Name[en_US]=Apache Directory Studio
+X-XFCE-Source=file:///home/jpuellmann/Desktop/Apache%20Directory%20Studio.desktop

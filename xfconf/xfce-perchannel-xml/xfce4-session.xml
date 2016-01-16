@@ -6,6 +6,7 @@
     <property name="SessionName" type="string" value="Default"/>
     <property name="SaveOnExit" type="bool" value="false"/>
     <property name="PromptOnLogout" type="bool" value="false"/>
+    <property name="AutoSave" type="bool" value="false"/>
   </property>
   <property name="sessions" type="empty">
     <property name="Failsafe" type="empty">
@@ -35,10 +36,10 @@
     </property>
   </property>
   <property name="chooser" type="empty">
-    <property name="AlwaysDisplay" type="bool" value="true"/>
+    <property name="AlwaysDisplay" type="bool" value="false"/>
   </property>
   <property name="compat" type="empty">
-    <property name="LaunchGNOME" type="bool" value="true"/>
+    <property name="LaunchGNOME" type="bool" value="false"/>
   </property>
   <property name="security" type="empty">
     <property name="EnableTcp" type="bool" value="false"/>

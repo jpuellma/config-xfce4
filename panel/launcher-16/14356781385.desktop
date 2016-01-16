@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Citrix ICA client
+GenericName=Citrix ICA Client
+Comment=Citrix nFuse session file
+Categories=Application
+Encoding=UTF-8
+Exec=/home/jpuellmann/bin/vcenter-converter-launcher
+Icon=virtualbox-vmdk
+Terminal=false
+Type=Application
+MimeType=application/x-ica
+StartupWMClass=citrix
+Name[en_US]=vCenter Converter
+X-XFCE-Source=file:///home/jpuellmann/.local/share/applications/vCenter.desktop
+Path=
+StartupNotify=false

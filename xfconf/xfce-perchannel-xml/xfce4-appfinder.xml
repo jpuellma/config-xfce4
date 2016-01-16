@@ -36,4 +36,5 @@
     <property name="window-width" type="int" value="560"/>
     <property name="pane-position" type="int" value="180"/>
   </property>
+  <property name="icon-view" type="bool" value="false"/>
 </channel>

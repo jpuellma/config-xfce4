@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Citrix ICA Client - IE8
+GenericName=Citrix ICA Client - IE8
+Comment=Citrix nFuse session file
+Categories=Application
+Encoding=UTF-8
+Exec=/home/jpuellmann/bin/ie8-launcher
+Icon=/home/jpuellmann/Pictures/Icons/Internet Explorer.png
+Terminal=false
+Type=Application
+MimeType=application/x-ica
+StartupWMClass=citrix
+Name[en_US]=ie8
+X-XFCE-Source=file:///home/jpuellmann/.local/share/applications/ie8.desktop

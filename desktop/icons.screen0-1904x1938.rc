@@ -6,14 +6,14 @@ row=3
 col=0
 
 [Trash]
-row=2
-col=0
-
-[/]
 row=0
 col=0
 
-[/home/jpuellmann]
+[/]
 row=1
+col=0
+
+[/home/jpuellmann]
+row=2
 col=0
 

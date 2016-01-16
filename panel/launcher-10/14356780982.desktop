@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Citrix ICA client
+GenericName=Citrix ICA Client
+Comment=Citrix nFuse session file
+Categories=Application
+Encoding=UTF-8
+Exec=/home/jpuellmann/bin/vsphere
+Icon=/home/jpuellmann/Pictures/Icons/vsphere_icon.png
+Terminal=false
+Type=Application
+MimeType=application/x-ica
+StartupWMClass=citrix
+Name[en_US]=vSphere Client
+X-XFCE-Source=file:///home/jpuellmann/.local/share/applications/vSphere.desktop
+Path=
+StartupNotify=false
